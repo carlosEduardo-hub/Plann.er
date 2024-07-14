@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /*Configuração padrão para quando se usa Tailwind para não bugar espaçamento */
 * {
   min-width: 0;
+}
+
+/* Configuração só para esse projeto */
+input {
+  color-scheme: dark;
 }
